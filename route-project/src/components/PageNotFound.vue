@@ -2,7 +2,6 @@
 <template>
 <h1 class="first">Ooops!</h1>
     <h1 class="second">Page Not Found!</h1>
-    <!-- <h1>PageNotFound</h1> -->
     <img src="../assets/404-page.gif" alt="">
 </template>
 <script>

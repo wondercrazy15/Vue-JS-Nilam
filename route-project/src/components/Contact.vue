@@ -110,7 +110,4 @@ h1 {
     text-shadow: 2px 2px 0px rgba(37, 37, 37, 0.421);
 }
 
-/* .wrapper {
-    text-align: center;
-} */
 </style>
