@@ -46,14 +46,7 @@ export default {
             if(val>5 && val>prev){
               alert("counting..")
             }
-            // if (less <= 0) {
-            //     alert("you change value less than 0")
-            // }
-            // else if (big >= 10) {
-            //     alert("you change value greater than 10")
-            // }else{
-            //   alert("you change value")
-            // }
+            
         }
 
     }
