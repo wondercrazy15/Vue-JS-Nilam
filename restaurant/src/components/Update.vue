@@ -46,7 +46,7 @@ export default {
         }
         let result = await axios.get('http://localhost:3000/restaurant/' + this.$route.params.id)
         console.log("Update Data:", result)
-        //   console.log(this.$route.params.id) id which we define in route file
+       
         this.name = result.data.name
         this.address = result.data.address
         this.contact = result.data.contact
@@ -54,7 +54,7 @@ export default {
     },
     methods: {
         async updateRestaurant() {
-            // console.log("Update data:",this.restaurant)
+           
             let result = await axios.put('http://localhost:3000/restaurant/' + this.$route.params.id, {
                 name: this.name,
                 address: this.address,
@@ -62,9 +62,6 @@ export default {
                 image: this.image
             })
 
-            // result.data.name=this.name
-            // result.data.address=this.address
-            // result.data.contact=this.contact
 
             console.log("Updated Result:", result)
             if (result.status == 200) {
@@ -83,7 +80,7 @@ export default {
             this.createImage(files[0]);
         },
         createImage(file) {
-            //   var image = new Image();
+            
             var reader = new FileReader();
             var vm = this;
 

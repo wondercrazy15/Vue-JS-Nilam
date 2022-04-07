@@ -3,13 +3,9 @@
 </template>
 
 <script>
-// import Signup from './components/Signup.vue'
 
 export default {
     name: 'App',
-    // components: {
-    //   Signup
-    // }
 }
 </script>
 
@@ -20,7 +16,6 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    /* margin-top: 60px; */
 }
 
 body {
@@ -30,15 +25,9 @@ body {
 
 .logo {
     width: 150px;
-    /* height: 150px !important; */
-    /* position: absolute; */
-    /* top: 50px; */
-    /* left: 37%;
-    z-index: 99999999; */
     transition: 2s;
     border-radius: 100%;
     margin-top: 3%;
-    /* border:1px solid rgb(248, 116, 116); */
     box-shadow: 0 0 5px 1px rgba(238, 184, 202, 1);
 }
 
@@ -77,24 +66,4 @@ body {
     margin-bottom: 10px;
     border-radius: 50px;
 }
-
-/* input[type="file"] {
-    display: none;
-}
-.custom-file-upload {
-    border:1px solid rgb(248, 116, 116);
-    display: inline-block; 
-    /* padding: 6px 12px;
-    cursor: pointer;
-    width: 150px;
-    height: 40px;
-    padding-left: 20px;
-    display: block;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-/* h3{
-  color: blueviolet;
-} */
 </style>

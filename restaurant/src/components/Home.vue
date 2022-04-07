@@ -146,22 +146,11 @@ h2 {
     color: white;
 }
 
-/* button:hover {
-     color: black; 
-    background-color: aqua;
-} */
-
 .update:hover {
     opacity: 0.6;
-    /* background-image: linear-gradient(90deg, rgba(238, 184, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-   animation:slidebg 5s linear infinite; */
-
 }
 
 .delete:hover {
     opacity: 0.6;
-    /* background-image: linear-gradient(90deg, rgba(238, 184, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-   animation:slidebg 5s linear infinite; */
-
 }
 </style>
